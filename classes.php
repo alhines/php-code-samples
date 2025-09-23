@@ -414,9 +414,8 @@ class _Bot{
 	private $chatID;private $chatType;
 	private $message;
 
-	function __construct($data){
-		//$this->btoken="2058052960:AAE10ngZ6omInedeC7beGiWQSgYHLRESoOE";
-		$this->btoken="2088478187:AAE0EHHM5v-Kq4SnYeJZEI2LFDZeXPb2whM";
+	function __construct($data){		
+		$this->btoken="token_goes_here";
 		$this->website="https://api.telegram.org/bot".$this->btoken;
 	}
 
@@ -848,4 +847,5 @@ class _whale_package_x_customer{
 	}		
 }
 //End whale packages
+
 ?>
