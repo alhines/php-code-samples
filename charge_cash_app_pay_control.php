@@ -9,13 +9,7 @@ $error = false;
 use Square\SquareClient;
 use Square\Environment;
 use Square\Exceptions\ApiException;
-
-//Access token sandbox
-//$access_token = 'EAAAEIvzjlNdDMI3lCW8Uh1rlil8bJvz2U7v84jFyP-FtFx8y2BDMbzlfwmwVG7e';
-
-//Access token production
-$access_token = 'EAAAEYDbdOCG6rIMf9MISRTgJnCMNmJbOgPwRV5KVey7EwBcvi5NFIB_ZtRbeOhn';
-                 
+                
 $client = new SquareClient([
     'accessToken' => $access_token,
     'environment' => Environment::PRODUCTION, //change to: PRODUCTION or SANDBOX 
@@ -134,4 +128,5 @@ if( !empty($reguser) && isset($reguser) ){
         <input type="hidden" name="error_response" value="<? echo $error_response ?>">    
       </form>    
       <script type="text/javascript">document.getElementById("py_error_btn").submit();</script>
+
 <? } ?>
