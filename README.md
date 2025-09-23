@@ -1,2 +1,2 @@
-# php-code-samples
-These are 3 PHP code samples to show my skills and experience using this tool
+# code-samples
+Those are some of my code examples using: PHP, Javascript, Jquery, CSS and Mysql.
